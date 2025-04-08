@@ -11,7 +11,7 @@ import os
 
 st.set_page_config(layout="wide")
 
-st_autorefresh(interval=300000, key="five_minute_refresh")
+st_autorefresh(interval=1800000, key="thirty_minute_refresh")
 
 def haversine(lon1, lat1, lon2, lat2):
     lon1, lat1, lon2, lat2 = map(math.radians, [lon1, lat1, lon2, lat2])
